@@ -81,7 +81,7 @@
 
 ## PARTE PRIVADA
 
-![Image text](https://github.com/calvarezgc/phoenix-films/blob/master/github-images/panel.jpg)
+![Image text](https://github.com/calvarezgc/phoenix-films/blob/master/github-images/panel.png)
 
 ## MANUAL DE USUARIO
 
