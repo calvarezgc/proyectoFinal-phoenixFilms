@@ -51,7 +51,7 @@ if (isset($_POST['submit'])) {
         //Content
         $mail->isHTML(true);                                  //Set email format to HTML
         $mail->Subject = 'Recuperacion Contraseña';
-        $mail->Body    = 'Aqui tienes el enlace de recuperación<b><a href="http://localhost/phoenix-films/change-password.php?reset=' . $code . '">http://localhost/phoenix-films/change-password.php?reset=' . $code . '</a></b>';
+        $mail->Body    = 'Aqui tienes el enlace de recuperación<b><a href="http://localhost/proyectoFinal-phoenixFilms/change-password.php?reset=' . $code . '">http://localhost/proyectoFinal-phoenixFilms/change-password.php?reset=' . $code . '</a></b>';
 
         $mail->send();
         echo 'Mensaje enviado';
