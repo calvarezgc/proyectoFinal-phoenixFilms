@@ -73,7 +73,7 @@
           </div>
           <div class="faq">
             <h3 class="faq__title">Donde puedo encontrar el proyecto?</h3>
-            <p class="faq__text">El proyecto puedes encontrarlo en mi <a href="https://github.com/calvarezgc/phoenix-films">Github </a></p>
+            <p class="faq__text">El proyecto puedes encontrarlo en mi <a href="https://github.com/calvarezgc/proyectoFinal-phoenixFilms">Github </a></p>
           </div>
 
           <div class="faq">
