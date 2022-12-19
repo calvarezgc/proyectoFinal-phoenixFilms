@@ -1,0 +1,67 @@
+/*************** 
+Colores pasados del frontend para usarlos en el backend
+Header: #2b2b31
+Logo: #28282d
+Principales (oscuros): #2b2b31 #2F2B32 #28282D
+Secundarios (rositas): #ff55a5  #ff5860 78
+Colores degradado rosita: (90deg, #ff55a5 0%, #ff5860 100%)
+Colores degradado oscuro: (top, rgba(43, 43, 49, 0) 0%, #2b2b31 100%)
+***************/
+
+
+
+/* Color de fondo para el sidebar */
+.bg-gradient-primary {
+  background-color: #2F2B32;
+  background-image: linear-gradient(180deg, #2F2B32 10%, #2B2930 100%);
+  background-size: cover;
+}
+
+/* Color de fondo para los botones*/
+.input-group>.input-group-append>.btn {
+  background-color: #2F2B32 !important;
+  border-color: #2F2B32 !important;
+}
+
+/* Color de fondo para el boton con el icono de descarga */
+.btn-primary {
+  color: #fff;
+  background-color: #2F2B32;
+  border-color: #2F2B32;
+}
+
+/* Color de fondo para el boton cuando nos situamos encima*/
+.btn-primary:hover {
+  color: #fff;
+  background-color: #3e3c41;
+  border-color: #3e3c41;
+}
+
+/* Color de fondo para las alertas del topbar*/
+.topbar .dropdown-list .dropdown-header {
+  background-color: #2F2B32 !important;
+  border: 1px solid #2F2B32 !important;
+}
+
+/* Color de los iconos del menu desplegable del topbar */
+.text-gray-400 {
+  color: #2F2B32 !important;
+}
+
+/* Color de la paginacion EN PROCESO */
+.paginate_button .page-item .active>.page-item.active .page-link {
+  background-color: #2F2B32 !important;
+  border-color: #2F2B32 !important;
+}
+
+/* Color de la pagina activa en la paginacion */
+/* li .activeA {
+  color: blue;
+} */
+
+.page-item.active .page-link {
+  z-index: 3;
+  color: #fff;
+  background-color: #2F2B32;
+  border-color: #2F2B32;
+}

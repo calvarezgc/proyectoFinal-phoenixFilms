@@ -1,0 +1,324 @@
+    body {
+      background-color: #312C35;
+      padding-top: 2em;
+      color: white;
+      font-family: 'Ubuntu', sans-serif;
+    }
+
+    input {
+      text-align: justify;
+      margin: auto;
+    }
+
+    .title {
+      font-weight: 500;
+      color: white;
+      font-size: 40px;
+      position: relative;
+      text-align: center;
+      line-height: 90px;
+      letter-spacing: 8px;
+    }
+
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      margin-right: -0.75rem;
+      margin-left: -0.75rem;
+      justify-content: space-evenly;
+    }
+
+    .row2 {
+      display: flex;
+      flex-wrap: wrap;
+      max-width: 60%;
+      margin-right: -0.75rem;
+      margin-left: -0.75rem;
+      justify-content: center;
+    }
+
+    .container-genres {
+      text-align: center;
+      margin-top: 20px;
+      margin-right: 10px;
+    }
+
+    .container {
+      width: 100%;
+      height: 20%;
+      text-align: justify;
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+
+    }
+
+    @media (min-width: 1200px) {
+
+      .container,
+      .container-lg,
+      .container-md,
+      .container-sm,
+      .container-xl {
+        max-width: 1140px;
+      }
+    }
+
+    .radios {
+      margin: auto;
+      text-align: center;
+      display: flex;
+    }
+
+    .cont {
+      width: 100%;
+      text-align: center;
+    }
+
+    input[type="checkbox"] {
+      display: flex;
+    }
+
+    .largo {
+      width: 100%;
+      border-radius: 4px;
+      background-image: -moz-linear-gradient(90deg, #ff55a5 0%, #ff5860 100%);
+      background-image: -webkit-linear-gradient(90deg, #ff55a5 0%, #ff5860 100%);
+      background-image: -ms-linear-gradient(90deg, #ff55a5 0%, #ff5860 100%);
+      background-image: linear-gradient(90deg, #ff55a5 0%, #ff5860 100%);
+    }
+
+    .form-group {
+      text-align: center;
+    }
+
+    .form-group.fer {
+      /* text-align: center; */
+      display: flex;
+      align-items: center;
+    }
+
+    .h2 {
+      text-align: center;
+      margin-top: 10px;
+      color: #FD5682;
+    }
+
+    .imagenes {
+      text-align: center;
+      padding: 30px;
+    }
+
+    .sign__form {
+      background-color: #28282d;
+      -webkit-box-shadow: 0 5px 25px 0 rgb(0 0 0 / 30%);
+      box-shadow: 0 5px 25px 0 rgb(0 0 0 / 30%);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 40px 20px;
+      position: relative;
+    }
+
+    .sign__form:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 2px;
+      display: block;
+      background-image: -moz-linear-gradient(90deg, #ff55a5 0%, #ff5860 100%);
+      background-image: -webkit-linear-gradient(90deg, #ff55a5 0%, #ff5860 100%);
+      background-image: -ms-linear-gradient(90deg, #ff55a5 0%, #ff5860 100%);
+      background-image: linear-gradient(90deg, #ff55a5 0%, #ff5860 100%);
+      -webkit-box-shadow: 0 0 20px 0 rgb(255 88 96 / 50%);
+      box-shadow: 0 0 20px 0 rgb(255 88 96 / 50%);
+    }
+
+    .sign__logo {
+      margin-bottom: 40px;
+    }
+
+    .sign__logo a {
+      max-width: 100%;
+      width: auto;
+    }
+
+    .sign__logo img {
+      max-width: 172px;
+    }
+
+    .sign__input {
+      background-color: #2b2b31;
+      border: none;
+      height: 50px;
+      position: relative;
+      color: #fff;
+      font-size: 15px;
+      width: 250px;
+      color: #fff;
+      -webkit-border-radius: 0;
+      border-radius: 0;
+      padding: 0 20px;
+      letter-spacing: 0.2px;
+      font-family: 'Open Sans', sans-serif;
+    }
+
+    @media (min-width: 360px) {
+      .sign__input {
+        width: 280px;
+      }
+    }
+
+    .sign__content {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      width: 100%;
+      padding: 40px 0;
+    }
+
+
+    .col-12 {
+      flex: 0 0 100%;
+      max-width: 100%;
+      left: 35%;
+    }
+
+    .sign {
+      display: block;
+      position: relative;
+    }
+
+    .sign__btn {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 50px;
+      width: 100%;
+      -webkit-border-radius: 4px;
+      border-radius: 4px;
+      background-image: -moz-linear-gradient(90deg, #ff55a5 0%, #ff5860 100%);
+      background-image: -webkit-linear-gradient(90deg, #ff55a5 0%, #ff5860 100%);
+      background-image: -ms-linear-gradient(90deg, #ff55a5 0%, #ff5860 100%);
+      background-image: linear-gradient(90deg, #ff55a5 0%, #ff5860 100%);
+      -webkit-box-shadow: 0 0 20px 0 rgb(255 88 96 / 50%);
+      box-shadow: 0 0 20px 0 rgb(255 88 96 / 50%);
+      opacity: 0.85;
+      font-size: 13px;
+      color: #fff;
+      text-transform: uppercase;
+      font-weight: 500;
+      letter-spacing: 1px;
+      margin: 20px auto 0;
+    }
+
+    .sign__group {
+      position: relative;
+      margin-bottom: 20px;
+    }
+
+    .sign__group {
+      position: relative;
+      margin-bottom: 20px;
+    }
+
+    .sign__group--checkbox {
+      width: 100%;
+      text-align: left;
+    }
+
+    .sign__group--checkbox input:not(:checked),
+    .sign__group--checkbox input:checked {
+      position: absolute;
+      left: -9999px;
+    }
+
+    .sign__group--checkbox input:not(:checked)+label,
+    .sign__group--checkbox input:checked+label {
+      font-size: 14px;
+      color: rgba(255, 255, 255, 0.5);
+      font-family: 'Open Sans', sans-serif;
+      position: relative;
+      cursor: pointer;
+      padding-left: 34px;
+      line-height: 22px;
+      margin: 0;
+    }
+
+    .sign__group--checkbox input:not(:checked)+label a,
+    .sign__group--checkbox input:checked+label a {
+      background-image: -webkit-linear-gradient(0deg, #ff55a5 0%, #ff5860 100%);
+      -webkit-text-fill-color: transparent;
+      color: #ff5860;
+      opacity: 0.75;
+    }
+
+    .sign__group--checkbox input:not(:checked)+label a:hover,
+    .sign__group--checkbox input:checked+label a:hover {
+      opacity: 1;
+    }
+
+    .sign__group--checkbox input:not(:checked)+label:before,
+    .sign__group--checkbox input:checked+label:before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 20px;
+      height: 20px;
+      background-color: #2b2b31;
+    }
+
+    .sign__group--checkbox input:not(:checked)+label:after,
+    .sign__group--checkbox input:checked+label:after {
+      font-family: 'Ionicons';
+      content: '\f3ff';
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 20px;
+      height: 20px;
+      font-size: 20px;
+      line-height: 20px;
+      text-align: center;
+      -webkit-transition: 0.4s;
+      -moz-transition: 0.4s;
+      transition: 0.4s;
+      color: #ff55a5;
+    }
+
+    .sign__group--checkbox input:not(:checked)+label:after {
+      opacity: 0;
+      -webkit-transform: scale(0);
+      -moz-transform: scale(0);
+      transform: scale(0);
+    }
+
+    .sign__group--checkbox input:checked+label:after {
+      opacity: 1;
+      -webkit-transform: scale(1);
+      -moz-transform: scale(1);
+      transform: scale(1);
+    }
+
+    .sign__group--checkbox label::-moz-selection {
+      background: transparent;
+      color: rgba(255, 255, 255, 0.5);
+    }
+
+    .sign__group--checkbox label::selection {
+      background: transparent;
+      color: rgba(255, 255, 255, 0.5);
+    }
+
+    button {
+      padding: 0;
+      border: none;
+      background-color: transparent;
+      -webkit-transition: 0.4s ease;
+      -moz-transition: 0.4s ease;
+      transition: 0.4s ease;
+      cursor: pointer;
+    }

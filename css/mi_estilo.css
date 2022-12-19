@@ -1,0 +1,13 @@
+a {
+  list-style: none;
+  color: white;
+}
+
+a.header__sign-in:hover {
+  color: #2F2B32;
+}
+
+/* Ocultar barra lateral de scroll */
+::-webkit-scrollbar {
+  display: none;
+}
