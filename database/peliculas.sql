@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: Dec 19, 2022 at 09:39 AM
+-- Generation Time: Dec 19, 2022 at 07:07 PM
 -- Server version: 5.7.36
 -- PHP Version: 7.4.26
 
@@ -260,8 +260,7 @@ CREATE TABLE IF NOT EXISTS `usuarios` (
 --
 
 INSERT INTO `usuarios` (`id`, `nombre`, `apellidos`, `mail`, `usuario`, `password`, `telefono`, `rol`, `estado`, `token`, `imagen`, `boletin`, `created_at`, `modified_at`, `code`) VALUES
-(1, 'Krys', 'Gar', 'krispisag@gmail.com', 'krispisag', '1234', '', 'A', 'A', 'abcdefghijklmnopqrstuvwxyz0123456789', '', '', 20222211, 1669967635, '0'),
-(2, 'CristinaA', 'Grillo', 'cristina.alvarezgc@gmail.com', 'calvarezgc', '1234', '', 'U', 'A', 'kiukuyeesgsg', '', '', 20222211, 1669812771, '');
+(2, 'prueba', 'prueba', '1234@yopmail.com', 'prueba', '1234', '', 'U', 'A', 'kiukuyeesgsg', '', '', 20222211, 1669812771, '');
 
 -- --------------------------------------------------------
 
