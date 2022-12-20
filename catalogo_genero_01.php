@@ -300,7 +300,7 @@
       </div>
     </section>
     <!-- paginator -->
-    <div class="col-12">
+    <!-- <div class="col-12">
       <ul class="paginator">
         <li class="paginator__item paginator__item--prev">
           <a href="#"><i class="icon ion-ios-arrow-back"></i></a>
@@ -313,7 +313,7 @@
           <a href="#"><i class="icon ion-ios-arrow-forward"></i></a>
         </li>
       </ul>
-    </div>
+    </div> -->
     <!-- end paginator -->
     <!-- end expected catalog -->
 
