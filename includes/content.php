@@ -149,19 +149,7 @@ $V = new Votacion();
                           <p> <?php echo $V->mostrar_estrellitas_para($fila['id']); ?></p>
 
                           <!-- favoritos -->
-                          <?php if (isset($_SESSION['rol'])) {
-                            if ($_SESSION['rol'] == 'U' or $_SESSION['rol'] == 'A') {
-                              // podemos hacer comentarios
 
-                          ?>
-                              <!--     <p> Escribe tu comentario</p>
-                                        <textarea name="comentario"></textarea> -->
-                              <p class="small fw-medium"> <?php echo $V->mostrar_estrellitas_para_usuario($fila['id'], $_SESSION['usuarioid']); ?></p>
-
-
-
-                          <?php }
-                          } ?>
                           <!-- fin favoritos -->
 
                           <ul class="card__list">
