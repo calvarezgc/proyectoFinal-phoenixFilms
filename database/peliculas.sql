@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: Dec 21, 2022 at 07:11 AM
+-- Generation Time: Dec 21, 2022 at 07:15 AM
 -- Server version: 5.7.36
 -- PHP Version: 7.4.26
 
@@ -34,6 +34,31 @@ CREATE TABLE IF NOT EXISTS `genero` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
+--
+-- Dumping data for table `genero`
+--
+
+INSERT INTO `genero` (`id`, `genero`) VALUES
+(12, 'Aventura'),
+(14, 'Fantasía'),
+(16, 'Animación'),
+(18, 'Drama'),
+(27, 'Terror'),
+(28, 'Acción'),
+(35, 'Comedia'),
+(36, 'Historia'),
+(37, 'Western'),
+(53, 'Suspense'),
+(80, 'Crimen'),
+(99, 'Documental'),
+(878, 'Ciencia ficción'),
+(9648, 'Misterio'),
+(10402, 'Música'),
+(10749, 'Romance'),
+(10751, 'Familia'),
+(10752, 'Bélica'),
+(10770, 'Pelicula TV');
+
 -- --------------------------------------------------------
 
 --
@@ -51,7 +76,7 @@ CREATE TABLE IF NOT EXISTS `peliculas` (
   `overview` text,
   `opinion` text,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB AUTO_INCREMENT=68 DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
 
@@ -65,7 +90,7 @@ CREATE TABLE IF NOT EXISTS `peli_genero` (
   `peliculaid` bigint(20) NOT NULL,
   `generoid` bigint(20) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB AUTO_INCREMENT=573 DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
 
@@ -91,7 +116,7 @@ CREATE TABLE IF NOT EXISTS `usuarios` (
   `modified_at` bigint(20) NOT NULL COMMENT 'fecha ultima modificacion',
   `code` text NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
 
