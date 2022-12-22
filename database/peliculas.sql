@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: Dec 21, 2022 at 07:15 AM
+-- Generation Time: Dec 22, 2022 at 08:17 AM
 -- Server version: 5.7.36
 -- PHP Version: 7.4.26
 
@@ -116,7 +116,14 @@ CREATE TABLE IF NOT EXISTS `usuarios` (
   `modified_at` bigint(20) NOT NULL COMMENT 'fecha ultima modificacion',
   `code` text NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `usuarios`
+--
+
+INSERT INTO `usuarios` (`id`, `nombre`, `apellidos`, `mail`, `usuario`, `password`, `telefono`, `rol`, `estado`, `token`, `imagen`, `boletin`, `created_at`, `modified_at`, `code`) VALUES
+(3, 'admin', '', 'admin-calvarezgc@yopmail.com', 'admin', '1234', '', 'A', 'A', 'abcdefghijklmnopqrstuvwxyz0123456789', '', '', 20222211, 1669967635, '0');
 
 -- --------------------------------------------------------
 
