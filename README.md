@@ -87,3 +87,9 @@
 
 <a href="https://docs.google.com/presentation/d/1yMh6n0nVfcDOUcVNjs2_uweQZORAdMYTOgqvXI7bWwY/edit?usp=sharing">Manual de usuario
 </a>
+
+
+## PREVIEW FUNCIONAMIENTO
+calvarezgc.infinityfreeapp.com 
+usuario: admin
+pass: 1234
